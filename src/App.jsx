@@ -3,10 +3,10 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css'
 import Home from './pages/Home'
 import ContextProvider from './store/quiz.jsx'
-import Public from './shared/Public/index.jsx';
+import Public from './shared/Public';
 import Register from './pages/Register'
-import Private from './shared/Private/index.jsx';
-import Login from './pages/Login/index.jsx';
+import Private from './shared/Private';
+import Login from './pages/Login';
 function App() {
   return (
     <ContextProvider>
