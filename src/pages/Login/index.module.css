@@ -1,0 +1,103 @@
+.formCont {
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formCont>form {
+    display: flex;
+    padding: 20px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .8);
+}
+
+.eye {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 0px;
+    top: 15%;
+}
+
+input::placeholder {
+    color: green;
+    caret-color: green;
+}
+
+body {
+    /* background: linear-gradient(to left, rgb(167, 241, 186), rgb(192, 201, 192), rgb(255, 0, 106)); */
+    background: linear-gradient(to left, var(--b), var(--b2));
+}
+
+.inputController {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid rgb(12, 238, 133);
+
+}
+
+.inputController input {
+    padding: 15px;
+    border: none;
+    width: 100%;
+}
+
+.formCont h1 {
+    background: linear-gradient(to left, rgb(167, 241, 186), rgb(192, 201, 192), rgb(255, 0, 106));
+
+    background-clip: text;
+    color: transparent;
+    text-decoration: underline;
+}
+
+.checkbox {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    background: linear-gradient(to left, rgb(167, 241, 186), rgb(192, 201, 192), rgb(255, 0, 106));
+    font-size: larger;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 0 0 5px;
+}
+
+input[type="submit"] {
+    font-weight: 500;
+}
+
+.inputController span {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+
+p {
+    color: green;
+}
+
+.inputController:last-child {
+    border-bottom: none;
+}
+
+
+input:focus {
+    outline: none;
+}

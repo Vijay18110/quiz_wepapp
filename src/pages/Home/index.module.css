@@ -1,0 +1,69 @@
+.cont {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+.cont1 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    color: #fff;
+    position: relative;
+}
+.cont1>div {
+    box-shadow: 0 0 10px wheat;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left, var(--b3), var(--g));
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+
+.cont>div span {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .25) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px;
+}
+
+.cont>div span:first-child {
+    background: linear-gradient(to left, var(--g), var(--b3));
+    padding: 10px;
+
+}
+
+.cont>div span:last-child {
+    border-bottom: 3px solid #fff;
+}
+
+.h1 {
+    color: white;
+}
+.btnCont{
+    display:flex;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    padding: 20px;
+    width: 30%;
+    background: linear-gradient(to left, var(--g), var(--b3));
+    border-radius: 8px;
+    text-shadow: rgba(0, 0, 0, .25) 0 54px 55px, rgba(0, 0, 0, .12) 0 -12px 30px, rgba(0, 0, 0, .12) 0 4px 6px, rgba(0, 0, 0, .17) 0 12px 13px, rgba(0, 0, 0, .09) 0 -3px 5px;
+    border: none;
+}

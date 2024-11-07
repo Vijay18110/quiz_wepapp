@@ -1,0 +1,57 @@
+.qCont {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+}
+.green{
+    color: green;
+}
+
+.qCont .quest {
+    width: 32%;
+    height: 300px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(to left, var(--b2), var(--b3));
+    border-radius: 7px;
+}
+
+.qCont .quest h2 {
+    background: linear-gradient(to left, white, var(--g));
+    font-weight: 900;
+    text-shadow: 0 0 10px;
+    background-clip: text;
+    color: transparent;
+}
+
+input:checked{
+    color: red;
+}
+.qCont .quest h2 span {
+    color: white;
+}
+.qCont .opt {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30px;
+    background: linear-gradient(to left, var(--b), var(--b3));
+}
+
+.qCont .opt div {
+    display: flex;
+    gap: 20px;
+}
+
+.qCont .opt div lable {
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}

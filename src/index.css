@@ -1,0 +1,17 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --g: #3cb35a;
+  --b: #000000;
+  --b2: #03012c;
+  --b3: #635e79;
+  --b4: #9690b0;
+}
+
+body {
+  background: linear-gradient(to left, var(--b), var(--b2));
+}
